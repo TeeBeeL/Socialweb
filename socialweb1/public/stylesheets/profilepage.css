@@ -1,0 +1,50 @@
+body{
+	text-align: center;
+	width:100%;
+}
+.container-fluid{
+	background-color: #00bfff;
+	text-align: center;
+}
+nav{
+	width:100%;
+	height:30px;
+	background-color: lightblue;
+}
+a {
+	text-decoration: none !important;
+	font-size: 16px;
+}
+a:hover{
+	background-color: lightgray;
+}
+.prfimg{
+	width: 200px;
+	height: 200px;
+	border-radius: 100px;
+}
+
+.prfbg{
+	background-image: url(/images/bgimgs1.jpg);
+	background-size: 100% 500px;
+}
+.thumbnail-primary{
+	height: 200px;
+    clear: both;
+	border-radius: 2%;
+	padding: 5%;
+}
+.bgd{
+	background-color: #fff;
+	opacity: 0.6;
+	font-weight: bolder;
+}
+footer{
+   background-color: #555;
+   color: white;
+   padding: 15px;
+}
+
+footer a:hover{
+    color: #616161;
+}
